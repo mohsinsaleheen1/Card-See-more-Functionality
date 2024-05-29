@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    align-items: center;
+} 
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap
+}
+.row .col{
+    width: 400px;
+    height: 500%;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 10px;
+}
+.row .col .description h1{
+    text-align: center;
+}
+.row .col .description h3{
+    padding: 10px 0px 10px 0px;
+}
+.row .col .description .card-btn{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.row .col .description .card-btn #see-more1{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    font-size: 17px;
+    cursor: pointer;
+}
+.card-div1{
+    display: none;
+}
+.activeme1{
+    display:inline-block;
+}
+.row .col .description .card-btn #see-more2{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    font-size: 17px;
+    cursor: pointer;
+}
+.card-div2{
+    display: none;
+}
+.activeme2{
+    display:inline-block;
+}
+
+.row .col .description .card-btn #see-more3{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    font-size: 17px;
+    cursor: pointer;
+}
+.card-div3{
+    display: none;
+}
+.activeme3{
+    display:inline-block;
+}
