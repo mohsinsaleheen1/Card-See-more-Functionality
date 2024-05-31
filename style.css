@@ -36,7 +36,7 @@ body{
     display: flex;
     justify-content: center;
 }
-.row .col .description .card-btn #see-more1{
+.row .col .description .card-btn .see-more1{
     background-color: aliceblue;
     border: none;
     border-radius: 10px;
@@ -45,13 +45,13 @@ body{
     font-size: 17px;
     cursor: pointer;
 }
-.card-div1{
+.card-div{
     display: none;
 }
-.activeme1{
+.activeme{
     display:inline-block;
 }
-.row .col .description .card-btn #see-more2{
+.row .col .description .card-btn #see-more{
     background-color: aliceblue;
     border: none;
     border-radius: 10px;
@@ -59,26 +59,4 @@ body{
     color: black;
     font-size: 17px;
     cursor: pointer;
-}
-.card-div2{
-    display: none;
-}
-.activeme2{
-    display:inline-block;
-}
-
-.row .col .description .card-btn #see-more3{
-    background-color: aliceblue;
-    border: none;
-    border-radius: 10px;
-    padding: 10px;
-    color: black;
-    font-size: 17px;
-    cursor: pointer;
-}
-.card-div3{
-    display: none;
-}
-.activeme3{
-    display:inline-block;
 }
